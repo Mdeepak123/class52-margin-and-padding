@@ -1,0 +1,65 @@
+h1{
+    color:black
+}
+.HeaderBox{
+
+    color:rgb(255, 208, 0);
+    border: solid;
+    background-color: rgb(255, 208, 0);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.top *{
+    padding: 25px;
+}
+
+.LinkBox{
+    
+    font-size: 20px;
+    color: rgb(255, 208, 0);
+    border: solid;
+    background-color:rgb(255, 208, 0);
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.grid{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.Socials{
+    display: flex;
+    justify-content: flex-end;
+}
+
+body{
+    /*background-color: #041870;*/
+}
+
+.item p{
+
+    position: absolute;
+    transform:translate(75%,-200%);
+    opacity: 0;
+}
+
+.item:hover{
+    opacity: 0.5;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color:rebeccapurple;
+}
